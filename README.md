@@ -1,7 +1,5 @@
 ![LLM Teacher — Your agent, your teacher.](assets/llm-teacher_banner.png)
 
-# LLM Teacher
-
 LLM Teacher is a lightweight agent skill that helps users learn while getting things done. When active, it accompanies the requested result with a teacher-style explanation of the tools used, the reasons for key choices, and the steps that led to the solution.
 
 The goal is to help users evaluate the work, reuse the method, and become more independent. Explanations stay proportional to the task and use the user's language and level of familiarity.
