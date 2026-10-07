@@ -14,8 +14,6 @@ The goal is to help users evaluate the work, reuse the method, and become more i
 - Connect the example to a general principle and another situation where it applies.
 - Adjust the support to the understanding demonstrated in the conversation.
 
-There are no quizzes, learning records, or saved preferences. No initialization or workspace configuration is required.
-
 The teaching approach draws on cognitive apprenticeship, worked examples, and connections between concrete and abstract representations. Local references contain concise source summaries, practical guidance, original examples, limitations, and bibliographic details. `SKILL.md` explains when to consult each reference; using them requires no web access. These adaptations are informed by learning research; their effectiveness in this skill has not been established, and receiving an explanation is not proof of independent ability.
 
 ## Usage
