@@ -1,3 +1,5 @@
+![LLM Teacher — Your agent, your teacher.](assets/llm-teacher_banner.png)
+
 # LLM Teacher
 
 LLM Teacher is a lightweight agent skill that helps users learn while getting things done. When active, it accompanies the requested result with a teacher-style explanation of the tools used, the reasons for key choices, and the steps that led to the solution.
@@ -8,11 +10,15 @@ The goal is to help users evaluate the work, reuse the method, and become more i
 
 - Complete the user's request and keep the result easy to find.
 - Explain what the tools and techniques do and why they fit the task.
-- Describe the criteria, evidence, and trade-offs behind important decisions.
-- Summarize the path to the solution and explain how the result was checked.
-- Highlight a practical idea or method the user can apply next time.
+- Connect important decisions to concrete constraints and explain when an alternative would fit better.
+- Teach through a worked example from the actual task, linking the steps to their purpose.
+- Explain how the result was checked and, when feasible, how the user can repeat a check independently.
+- Connect the example to a general principle and another situation where it applies.
+- Adjust the support to the understanding demonstrated in the conversation.
 
 There are no quizzes, learning records, or saved preferences. No initialization or workspace configuration is required.
+
+The teaching approach draws on cognitive apprenticeship, worked examples, and connections between concrete and abstract representations. Local references contain concise source summaries, practical guidance, original examples, limitations, and bibliographic details. `SKILL.md` explains when to consult each reference; using them requires no web access. These adaptations are informed by learning research; their effectiveness in this skill has not been established, and receiving an explanation is not proof of independent ability.
 
 ## Usage
 
@@ -30,6 +36,9 @@ Host-specific invocation shortcuts may also work, but they are not required. Ask
 
 ```text
 SKILL.md
+references/cognitive-apprenticeship.md
+references/worked-examples.md
+references/concrete-to-abstract.md
 ```
 
-The skill is self-contained in `SKILL.md`, with no runtime dependencies, helper scripts, or persistent state.
+The skill and its teaching references are self-contained, with no runtime dependencies, helper scripts, or persistent learning state. References are read selectively and contain teaching material, not user records or full copies of the research papers.
